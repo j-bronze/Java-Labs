@@ -12,8 +12,8 @@ public class Questionnaire{
 		Scanner scn3 = new Scanner(System.in);
 		int value3 = scn3.nextInt();
 		
-		System.out.printf("Место работы: %20s\n", value1);
-		System.out.printf("Должность: %20s\n", value2);
-		System.out.printf("Продолжительность рабочего дня: %10s\n", value3);
+		System.out.printf("Место работы: | %s\n", value1);
+		System.out.printf("Должность:    | %s\n", value2);
+		System.out.printf("Рабочий день: | %s\n", value3);
 	}
 }
