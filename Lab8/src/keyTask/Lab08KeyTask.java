@@ -53,7 +53,7 @@ public class Lab08KeyTask {
 		indexOfElement = LocalMinMaxElement.findFirstIndexOfLocalMax(array);
 		View. print("\n\nThe index of first local max element is: " + indexOfElement);
 		
-		//реверсировать элементы массива не используя дополнительной памяти)
+		//Reverse elements and not use expanded memory
 		View. print("\n\nThe Reverse array is: " + Arrays.toString(ReverseArray.reverseArray(array)));
 	}
 }
